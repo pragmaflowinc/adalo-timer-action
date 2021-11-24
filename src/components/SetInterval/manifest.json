@@ -1,0 +1,26 @@
+{
+  "displayName": "setInterval",
+  "defaultWidth": 1,
+  "defaultHeight": 1,
+  "components": "./index.js",
+  "icon": "./example-thumbnail.png",
+  "props": [
+    {
+      "name": "startDelayTimer",
+      "displayName": "Delay before starting timer",
+      "type": "number",
+      "default": 0
+    },
+    {
+      "name": "delayTimer",
+      "displayName": "Time between actions in milliseconds",
+      "type": "number",
+      "default": 1000
+    },
+    {
+      "name": "action",
+      "displayName": "Action that happens after specified time",
+      "type": "action"
+    }
+  ]
+}
